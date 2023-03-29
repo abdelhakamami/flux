@@ -11,5 +11,4 @@ spec:
     kind: GitRepository
     name: election-app
   targetNamespace: test
----
 
