@@ -11,5 +11,4 @@ spec:
         kind: HelmRepository
         name: sonarqube
         namespace: flux-system
-      version: 2.1.5
   interval: 1m0s
