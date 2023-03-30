@@ -8,7 +8,7 @@ spec:
     spec:
       chart: ./charts/sonarqube/
       sourceRef:
-        kind: HelmRepository
+        kind: GitRepository
         name: sonarqube
         namespace: flux-system
   interval: 1m0s
