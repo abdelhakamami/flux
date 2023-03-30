@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./infrastructure/tools/sonarqube/kustomization.yaml
+  path: ./infrastructure/tools/sonarqube/
   prune: true
   sourceRef:
     kind: GitRepository
