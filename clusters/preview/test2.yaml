@@ -23,7 +23,5 @@ spec:
         name: sonarqube
         namespace: flux-system
       version: 8.0.0+463
-      values:
-         service:
-           type: LoadBalancer
+       
   interval: 1m0s
