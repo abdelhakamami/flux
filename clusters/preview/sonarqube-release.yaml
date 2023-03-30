@@ -6,10 +6,10 @@ metadata:
 spec:
   chart:
     spec:
-      chart: infra/tools/sonarqube/
+      chart: ./infra/tools/sonarqube/
       sourceRef:
         kind: GitRepository
         name: avaxia
-        namespace: flux-system #
+        namespace: flux-system 
       
   interval: 1m0s
