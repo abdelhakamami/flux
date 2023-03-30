@@ -11,4 +11,5 @@ spec:
         kind: GitRepository
         name: sonarqube
         namespace: flux-system
+      version: '9.5.0'
   interval: 1m0s
