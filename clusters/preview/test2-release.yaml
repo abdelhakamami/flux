@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: sonarqube | bitnami/sonarqube
+      chart: ./charts/sonarqube/
       sourceRef:
         kind: HelmRepository
         name: sonarqube
