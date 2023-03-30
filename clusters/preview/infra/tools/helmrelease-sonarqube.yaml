@@ -13,4 +13,6 @@ spec:
         name: bitnami
   interval: 5m0s
   releaseName: sonarqube
+  values:
+    imagePullPolicy: Always
   targetNamespace: abdelhak
