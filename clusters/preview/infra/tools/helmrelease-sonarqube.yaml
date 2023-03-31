@@ -14,5 +14,6 @@ spec:
   interval: 5m0s
   releaseName: sonarqube
   values:
-    imagePullPolicy: Always
+    image: 
+      pullPolicy: Always
   targetNamespace: abdelhak
