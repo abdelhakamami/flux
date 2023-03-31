@@ -14,9 +14,7 @@ spec:
   interval: 5m0s
   releaseName: sonarqube
   values:
-    sonarqubePassword: abdelhakavaxia
-          
-
+    sonarqubePassword: abdelhakavaxia #
     image: 
       pullPolicy: Always
     postgresql:
