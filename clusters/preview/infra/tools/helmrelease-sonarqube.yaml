@@ -16,4 +16,7 @@ spec:
   values:
     image: 
       pullPolicy: Always
+    postgresql:
+      persistence:
+          storageClass: default         
   targetNamespace: abdelhak
