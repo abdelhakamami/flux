@@ -24,4 +24,4 @@ spec:
     postgresql:
       persistence:
           storageClass: default         
-  targetNamespace: abdelhak
+  targetNamespace: abdelhak #
