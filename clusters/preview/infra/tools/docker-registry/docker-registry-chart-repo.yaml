@@ -22,7 +22,7 @@ spec:
       enabled: true
       size: 60Gi
       deleteEnabled: true
-      storageClass: default  #    
+      storageClass: default  
     secrets:
       htpasswd: abdelhakavaxia:$2y$05$gCNFEF7to2BF1FseQfZjtO3bpMNbDXyR7NHAwWkRHW3YIrgeQzbwu  
   targetNamespace: docker-registry
