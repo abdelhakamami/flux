@@ -25,8 +25,5 @@ spec:
       storageClass: default
       existingClaim: docker-registry-pv-claim
     secrets:
-      htpasswd: 
-         secretKeyRef:
-             name: docker-registry-secret
-             key: htpasswd
+      htpasswd: abdelhakavaxia:$2y$05$gCNFEF7to2BF1FseQfZjtO3bpMNbDXyR7NHAwWkRHW3YIrgeQzbwu
   targetNamespace: docker-registry
