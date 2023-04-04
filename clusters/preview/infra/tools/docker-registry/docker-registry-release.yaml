@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: twuni/docker-registry
+      chart: ./docker-registry
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
