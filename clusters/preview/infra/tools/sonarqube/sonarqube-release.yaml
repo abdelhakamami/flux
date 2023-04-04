@@ -15,6 +15,9 @@ spec:
   releaseName: sonarqube
   values:
     sonarqubePassword: abdelhakavaxia 
+    persistence:
+      enabled: true
+      storageClass: default         
     image: 
       pullPolicy: Always 
     postgresql:
