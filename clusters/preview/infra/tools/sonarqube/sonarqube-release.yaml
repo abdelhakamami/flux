@@ -14,15 +14,9 @@ spec:
   interval: 5m0s
   releaseName: sonarqube
   values:
-    sonarqubePassword:
-         secretKeyRef:
-              name: sonar-secret
-              key: pass  
+    sonarqubePassword: abdelhakavaxia 
     image: 
       pullPolicy: Always #
-    persistence:
-      enabled: true
-      storageClass: default 
     postgresql:
       persistence:
           storageClass: default         
