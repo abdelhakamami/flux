@@ -17,9 +17,12 @@ spec:
     sonarqubePassword:
          secretKeyRef:
               name: sonar-secret
-              key: user_pass  #
+              key: pass  
     image: 
       pullPolicy: Always
+    persistence:
+      enabled: true
+      storageClass: default 
     postgresql:
       persistence:
           storageClass: default         
