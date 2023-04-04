@@ -19,7 +19,7 @@ spec:
               name: sonar-secret
               key: pass  
     image: 
-      pullPolicy: Always
+      pullPolicy: Always #
     persistence:
       enabled: true
       storageClass: default 
