@@ -1,0 +1,22 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: harbor
+  namespace: flux-system
+spec:
+  chart:
+    spec:
+      chart: harbor/harbor
+      reconcileStrategy: ChartVersion
+      sourceRef:
+        kind: HelmRepository
+        name: harbor
+  interval: 5m0s
+  releaseName: harbor
+  values:
+    expose:
+      type: loadBalancer
+    persistence:
+      persistentVolumeClaim:
+         storageClass: default   
+  targetNamespace: harbor
