@@ -19,6 +19,7 @@ spec:
       tls:
         enabled: false
     persistence:
-      persistentVolumeClaim:
-         storageClass: default   
+      enable: false
+    harborAdminPassword: admin
+         
   targetNamespace: harbor
