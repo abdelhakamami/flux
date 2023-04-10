@@ -20,7 +20,6 @@ spec:
         enabled: false
     persistence:
       enabled: false
-    harborAdminPassword: admin
 
          
   targetNamespace: harbor
