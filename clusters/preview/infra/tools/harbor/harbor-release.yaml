@@ -18,7 +18,10 @@ spec:
       type: loadBalancer
       tls:
         enabled: false
-    externalURL: http://harboravaxia.com
+        auto:
+          commonName: harbor
+
+    externalURL: http://harboravaxia
 
     persistence:
       enabled: false
