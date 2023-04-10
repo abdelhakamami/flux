@@ -19,7 +19,6 @@ spec:
       tls:
         enabled: false
     persistence:
-      enable: false
-    harborAdminPassword: admin
+      enabled: false
          
   targetNamespace: harbor
