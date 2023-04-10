@@ -17,6 +17,8 @@ spec:
     global:
       storageClass: default
     adminPassword: admin
+    perstistence: 
+       enabled: false
     
          
   targetNamespace: harbor
