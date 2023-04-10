@@ -16,6 +16,8 @@ spec:
   values:
     expose:
       type: loadBalancer
+      tls:
+        enabled: false
     persistence:
       persistentVolumeClaim:
          storageClass: default   
