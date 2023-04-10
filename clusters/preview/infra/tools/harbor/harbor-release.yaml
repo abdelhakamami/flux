@@ -10,15 +10,13 @@ spec:
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
-        name: harbor
+        name: bitnami
   interval: 5m0s
   releaseName: harbor
   values:
-    expose:
-      type: loadBalancer
-      tls:
-        enabled: false
-    persistence:
-      enabled: false
+    global:
+      storageClass: default
+    adminPassword: admin
+    
          
   targetNamespace: harbor
